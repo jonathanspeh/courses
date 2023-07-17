@@ -6,6 +6,6 @@ Along the course I'll try to use conda to manage package installation. Its  not 
 
 
 ## TODO
-[] Install conda
-[] Create dependency file
-[] Continue with week 1 
+ [ ] Install conda  
+ [ ] Create dependency file  
+ [ ] Continue with week 1   
