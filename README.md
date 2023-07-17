@@ -1,4 +1,4 @@
-# wellcome_bioinformatics
+# wellcome - Bioinformatics for Biologists
 
 Repo for the course [Bioinformatics for Biologists](https://coursesandconferences.wellcomeconnectingscience.org/event/bioinformatics-for-biologists-an-introduction-to-linux-bash-scripting-and-r-20230717/)
 
@@ -6,6 +6,4 @@ Along the course I'll try to use conda to manage package installation. Its  not 
 
 
 ## TODO
- [ ] Install conda  
- [ ] Create dependency file  
- [ ] Continue with week 1   
+    [ ] Continue with week 1   
