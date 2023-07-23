@@ -1,6 +1,9 @@
 name: wellcome-bioinformatics
 channels:
+    - bioconda
+    - R 
     - conda-forge
-    - R
 dependencies:  
     - r-base=4.3.*
+    - htslib=1.17
+    - samtools=1.17
