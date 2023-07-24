@@ -6,13 +6,21 @@ Along the course I'll try to use conda to manage package installation. Its  not 
 
 ## Week1
 
-* Introduction to bash scripting  
+* Introduction to using bash  
 * Basic file handling
 * Good to remember:
   * awk - package to work with delimited files (csv, tsv, etc)
   * grep - working with patterns / regex  
   * chmod - adjust file permisstions
 
+## Week2
+
+* Started writing mini bash scripts 
+* Played a bit with relativ and absolute file paths
+  * Not sure what is best practice here
+
+
 ## TODO
 
-* Start week 2
+* Continue Week 2, Step 2.9
+ 
