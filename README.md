@@ -18,9 +18,13 @@ Along the course I'll try to use conda to manage package installation. Its  not 
 * Started writing mini bash scripts 
 * Played a bit with relativ and absolute file paths
   * Not sure what is best practice here
-
+* Good to remember
+  * read - command to enable user input
+    * -p - inline Prompt
+    * -s - hides user input
+  * $1, $2, ..., $@ - access command line arguments
 
 ## TODO
 
-* Continue Week 2, Step 2.9
+* Continue Week 2, Step 2.11
  
