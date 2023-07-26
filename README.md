@@ -8,23 +8,43 @@ Along the course I'll try to use conda to manage package installation. Its  not 
 
 * Introduction to using bash  
 * Basic file handling
-* Good to remember:
-  * awk - package to work with delimited files (csv, tsv, etc)
-  * grep - working with patterns / regex  
-  * chmod - adjust file permisstions
+
+## Good to remember:
+  
+* awk - package to work with delimited files (csv, tsv, etc)
+* grep - working with patterns / regex  
+* chmod - adjust file permisstions
 
 ## Week2
 
 * Started writing mini bash scripts 
 * Played a bit with relativ and absolute file paths
-  * Not sure what is best practice here
-* Good to remember
-  * read - command to enable user input
-    * -p - inline Prompt
-    * -s - hides user input
-  * $1, $2, ..., $@ - access command line arguments
+  * Not sure what is best practice here, I think I like paths relative to project root most 
+* Went trough if and switch case statements 
+
+## Good to remember
+
+* read - command to enable user input
+  * -p - inline Prompt
+  * -s - hides user input
+* $1, $2, ..., $@ - access command line arguments
+* operators for **conditional expressions**
+  * -e - true if file exists
+  * -d - true if file is existing directory
+  * -f - true if file is regular file
+  * -r - true if file is readable
+  * -f - true if file has size > 0
+  * -v - true if variable as value assigned
+  * -n - true if variable length is > 0
+  * -z - true if variable lenght == 0
+* **Arithmetic comparisons**
+  * -q - equal to
+  * -ne - not equal to 
+  * -lt - less than
+  * -le - less or equal to
+  * -gt - less than
+  * -ge - greater or equal to
 
 ## TODO
 
-* Continue Week 2, Step 2.11
- 
+* Continue Week 2, Step 2.16
