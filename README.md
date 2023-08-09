@@ -19,22 +19,21 @@ Along the course I'll try to use conda to manage package installation. Its  not 
 
 * Started writing mini bash scripts
 * Played a bit with relativ and absolute file paths
-  * Not sure what is best practice here, I think I like paths relative to project root most
-* Went trough if and switch case statements and the chapters on loops
-* Started with the last part - good practice
+  * Not sure what is best practice here, I think I like paths relative to project root most 
+  * Alternative - use arguments to specify file locations
 
 ### W2 - Good to remember
 
 * read - command to enable user input
   * -p - inline Prompt
   * -s - hides user input
-* $1, $2, ..., $@ - access command line arguments
+* $1, \$2, ..., \$@ - access command line arguments
 * operators for **conditional expressions**
   * -e - true if file exists
   * -d - true if file is existing directory
   * -f - true if file is regular file
   * -r - true if file is readable
-  * -f - true if file has size > 0
+  * -s - true if file has size > 0
   * -v - true if variable as value assigned
   * -n - true if variable length is > 0
   * -z - true if variable lenght == 0
@@ -49,7 +48,13 @@ Along the course I'll try to use conda to manage package installation. Its  not 
   * use `command 2>error_log` to write all errors to file
   * `command 1>ouput 2>error_log` writes errors and output in different files
   * `command > combined file 2>&1` writes both into the same file
+* **customize environement**
+  * set [options] - general syntax for set command
+  * helpfull options
+    * -e - catches errors (script will fail if error is raised)
+    * -u - catches undefined variables (script will fail if undefinded variable is called)
+    * -x - returns executed command before each result
 
 ## TODO
 
-* Continue Week 2, Step 2.21
+* start Week 3
