@@ -27,7 +27,7 @@ Along the course I'll try to use conda to manage package installation. Its  not 
 * read - command to enable user input
   * -p - inline Prompt
   * -s - hides user input
-* $1, \$2, ..., \$@ - access command line arguments
+* `$1, $2, ..., $@` - access command line arguments
 * operators for **conditional expressions**
   * -e - true if file exists
   * -d - true if file is existing directory
