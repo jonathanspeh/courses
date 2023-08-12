@@ -48,5 +48,9 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Data
+# Data and plots
 data/
+plots/
+
+# undofiles
+*~

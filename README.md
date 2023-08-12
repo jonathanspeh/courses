@@ -17,7 +17,6 @@ Along the course I'll try to use conda to manage package installation. Its  not 
 
 ## Week2
 
-* Started writing mini bash scripts
 * Played a bit with relativ and absolute file paths
   * Not sure what is best practice here, I think I like paths relative to project root most 
   * Alternative - use arguments to specify file locations
@@ -55,6 +54,11 @@ Along the course I'll try to use conda to manage package installation. Its  not 
     * -u - catches undefined variables (script will fail if undefinded variable is called)
     * -x - returns executed command before each result
 
+## Week 3
+
+* Nothing new to me
+
+
 ## TODO
 
-* start Week 3
+* nothing...
